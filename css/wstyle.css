@@ -1,0 +1,113 @@
+body {
+	font-family : Adobe Garamond Pro, Garamond, Optima;
+	text-align : justify;
+	margin-top : 50px;
+	margin-left : 200px;
+	margin-right : 200px;
+	background-color : #F8FAFD
+}
+
+p.commentary {
+	font-size : 90%;
+	margin-top : 5px;
+	margin-bottom : 5px
+}
+
+img.uniLogo {
+	float : right
+}
+
+img.floatRight {
+	float : right
+}
+
+img.floatLeft {
+	float : left
+}
+
+img.centered {
+	display: block;
+	margin: 20px auto 20px auto;
+	clear: both;
+}
+
+h4.section {
+	font-weight : bold;
+	font-variant : normal;
+	text-align : center
+}
+
+a:link, a:visited {
+	text-decoration : none
+}
+
+.Header {
+	position : absolute;
+	left : 220px;
+	width : 900px
+}
+
+.Menu {
+	position : absolute;
+	left : 220px;
+	top : 250px;
+	width : 900px;
+	padding : 10px;
+	border-style : ridge;
+	text-align : center
+}
+
+.Left {
+	position : absolute;
+	left : 20px;
+	top : 310px;
+	width : 150px;
+	padding : 10px
+}
+
+.Left p {
+	font-variant : small-caps;
+	font-size : 100%
+}
+
+.Middle {
+	position : absolute;
+	left : 220px;
+	top : 310px;
+	width : 900px
+}
+
+.Right {
+	position : absolute;
+	width : 200px
+}
+
+.MenuItem {
+	font-variant : small-caps;
+	padding : 10px
+}
+
+a.MenuLink:visited {
+	text-decoration : none;
+	color : black
+}
+
+a.MenuLink:link {
+	text-decoration : none;
+	color : black
+}
+
+a.MenuLink:hover {
+	text-decoration : none;
+	color : blue
+}
+
+a.MenuLinkActive:visited {
+	text-decoration : none;
+	color : #ED1C2E
+}
+
+a.MenuLinkActive:link {
+	text-decoration : none;
+	color : #ED1C2E
+}
